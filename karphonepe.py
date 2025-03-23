@@ -27,7 +27,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="karthika",  # Your MySQL password
+    password="Mythili11$",  # Your MySQL password
 )
 
 mycursor = mydb.cursor()
@@ -54,7 +54,7 @@ mycursor.execute(create_table_sql)
 print("✅ Table 'Aggregated_transaction' is ready.")
 
 # Step 4: Load the CSV file into a pandas DataFrame
-csv_file_path = r"C:\Users\karthika\Desktop\Phonepe_Project\phonepe_transaction_data.csv"
+csv_file_path = r"C:\Users\USER\OneDrive\Desktop\phonepe_kar\phonepe_transaction_data.csv"
 
 # Check if the file exists
 if not os.path.exists(csv_file_path):
@@ -97,7 +97,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="karthika",  # Your MySQL password
+    password="Mythili11$",  # Your MySQL password
 )
 
 mycursor = mydb.cursor()
@@ -121,7 +121,7 @@ mycursor.execute(create_table_sql)
 print("✅ Table 'Aggregated_insurance' is ready.")
 
 # Step 3: Load the CSV file into a pandas DataFrame
-csv_file_path = r"C:\Users\karthika\Desktop\Phonepe_Project\insurance_data.csv"
+csv_file_path = r"C:\Users\USER\OneDrive\Desktop\phonepe_kar\insurance_data.csv"
 
 # Check if the file exists
 if not os.path.exists(csv_file_path):
@@ -165,7 +165,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="karthika",  # Your MySQL password
+    password="Mythili11$",  # Your MySQL password
 )
 
 mycursor = mydb.cursor()
@@ -189,7 +189,7 @@ mycursor.execute(create_table_sql)
 print("✅ Table 'Aggregated_user' is ready.")
 
 # Step 3: Load the CSV file into a pandas DataFrame
-csv_file_path = r"C:\Users\karthika\Desktop\Phonepe_Project\user_data.csv"
+csv_file_path = r"C:\Users\USER\OneDrive\Desktop\phonepe_kar\user_data.csv"
 
 # Check if the file exists
 if not os.path.exists(csv_file_path):
@@ -233,7 +233,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="karthika",  # Your MySQL password
+    password="Mythili11$",  # Your MySQL password
 )
 
 mycursor = mydb.cursor()
@@ -257,7 +257,7 @@ mycursor.execute(create_table_sql)
 print("✅ Table 'Map_Transaction' is ready.")
 
 # Step 3: Load the CSV file into a pandas DataFrame
-csv_file_path = r"C:\Users\karthika\Desktop\Phonepe_Project\transaction_data.csv"
+csv_file_path = r"C:\Users\USER\OneDrive\Desktop\phonepe_kar\transaction_data.csv"
 
 # Check if the file exists
 if not os.path.exists(csv_file_path):
@@ -301,7 +301,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="karthika",  # Your MySQL password
+    password="Mythili11$",  # Your MySQL password
 )
 
 mycursor = mydb.cursor()
@@ -325,7 +325,7 @@ mycursor.execute(create_table_sql)
 print("✅ Table 'Map_Insurance' is ready.")
 
 # Step 3: Load the CSV file into a pandas DataFrame
-csv_file_path = r"C:\Users\karthika\Desktop\Phonepe_Project\insurance_map_data.csv"
+csv_file_path = r"C:\Users\USER\OneDrive\Desktop\phonepe_kar\insurance_map_data.csv"
 
 # Check if the file exists
 if not os.path.exists(csv_file_path):
@@ -369,7 +369,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="karthika",  
+    password="Mythili11$",  
 )
 
 mycursor = mydb.cursor()
@@ -393,7 +393,7 @@ mycursor.execute(create_table_sql)
 print("✅ Table 'Map_User' is ready.")
 
 # Load CSV
-csv_file_path = r"C:\Users\karthika\Desktop\Phonepe_Project\user_map_data.csv"
+csv_file_path = r"C:\Users\USER\OneDrive\Desktop\phonepe_kar\user_map_data.csv"
 if not os.path.exists(csv_file_path):
     print("❌ CSV file not found.")
 else:
@@ -424,7 +424,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="karthika",
+    password="Mythili11$",
 )
 
 mycursor = mydb.cursor()
@@ -448,7 +448,7 @@ mycursor.execute(create_table_sql)
 print("✅ Table 'Top_Transaction' is ready.")
 
 # Load CSV File
-csv_file_path = r"C:\Users\karthika\Desktop\Phonepe_Project\top_transaction_data.csv"
+csv_file_path = r"C:\Users\USER\OneDrive\Desktop\phonepe_kar\top_transaction_data.csv"
 
 if not os.path.exists(csv_file_path):
     print("❌ CSV file not found. Check the file path.")
@@ -500,7 +500,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="karthika",
+    password="Mythili11$",
 )
 
 mycursor = mydb.cursor()
@@ -524,7 +524,7 @@ mycursor.execute(create_table_sql)
 print("✅ Table 'Top_Insurance' is ready.")
 
 # Load CSV File
-csv_file_path = r"C:\Users\karthika\Desktop\Phonepe_Project\top_insurance_data.csv"
+csv_file_path = r"C:\Users\USER\OneDrive\Desktop\phonepe_kar\top_insurance_data.csv"
 
 if not os.path.exists(csv_file_path):
     print("❌ CSV file not found. Check the file path.")
@@ -576,7 +576,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="karthika",
+    password="Mythili11$",
 )
 
 mycursor = mydb.cursor()
@@ -599,7 +599,7 @@ mycursor.execute(create_table_sql)
 print("✅ Table 'Top_Users' is ready.")
 
 # Load CSV File
-csv_file_path = r"C:\Users\karthika\Desktop\Phonepe_Project\top_user_data.csv"
+csv_file_path = r"C:\Users\USER\OneDrive\Desktop\phonepe_kar\top_user_data.csv"
 
 if not os.path.exists(csv_file_path):
     print("❌ CSV file not found. Check the file path.")
@@ -652,7 +652,7 @@ def get_data():
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="karthika",
+            password="Mythili11$",
             database="karphonepe"
         )
         mycursor = mydb.cursor()
@@ -702,7 +702,7 @@ def get_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="karthika",
+        password="Mythili11$",
         database="karphonepe"
     )
 
@@ -780,7 +780,7 @@ elif case_study == "Transaction Analysis for Market Expansion":
 
 elif case_study == "User Engagement and Growth Strategy":
     st.header("User Growth Trends")
-    df = fetch_data("SELECT State, Year, Quarter, RegisteredUser, AppOpens FROM Map_users")
+    df = fetch_data("SELECT State, Year, Quarter, RegisteredUser, AppOpens FROM Map_user")
     
     # Line Chart
     fig = px.line(df, x="Quarter", y="RegisteredUser", color="State",
